@@ -1,4 +1,4 @@
-filepath: examples/bvh/change/male_ribbon_middle_2000.bvh
+filepath: examples/bvh/change/male_ribbon_middle_2000_30fps.bvh
 start_frame_idx: 0
 end_frame_idx: 2000
 groundplane_joint: LeftAnkle
