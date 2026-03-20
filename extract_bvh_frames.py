@@ -31,6 +31,7 @@ def extract_middle_frames(input_file, output_file, num_frames=2000):
             hierarchy_lines.append(line)
             if 'MOTION' in line:
                 motion_section_found = True
+                # 不要把 MOTION 行加入 motion_lines，它应该在 hierarchy 里
         else:
             motion_lines.append(line)
             if line.startswith('Frames:'):
@@ -57,11 +58,10 @@ def extract_middle_frames(input_file, output_file, num_frames=2000):
     # 构建输出内容
     output_lines = []
 
-    # 1. 写入 HIERARCHY 部分
+    # 1. 写入 HIERARCHY 部分（包括 MOTION 行）
     output_lines.extend(hierarchy_lines)
 
-    # 2. 写入 MOTION 部分
-    output_lines.append('MOTION\n')
+    # 2. 写入帧数和帧时间
     output_lines.append(f'Frames: {end_frame - start_frame}\n')
     output_lines.append(f'Frame Time: {frame_time}\n')
 
