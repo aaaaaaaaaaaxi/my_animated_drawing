@@ -86,10 +86,10 @@ char_joint_bvh_joints_mapping:
   - LeftHip
   - LeftKnee
   torso: !!python/tuple
-  - Hips
+  - Chest
   - Chest2
   neck: !!python/tuple
-  - Hips
+  - Chest2
   - Head
   right_elbow: !!python/tuple
   - RightShoulder
