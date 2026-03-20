@@ -1,6 +1,6 @@
-filepath: examples/bvh/change/male_ribbon_middle_2000_30fps.bvh
+filepath: examples/bvh/change/male_ribbon_part2_30fps.bvh
 start_frame_idx: 0
-end_frame_idx: 2000
+end_frame_idx: 1186
 groundplane_joint: LeftAnkle
 forward_perp_joint_vectors:
   - - LeftShoulder
