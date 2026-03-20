@@ -2,6 +2,7 @@ controller:
   MODE: video_render
   OUTPUT_VIDEO_PATH: ./video.gif
 view:
+  USE_MESA: True
   CAMERA_POS: [0.1, 1.3, 2.7]
   WINDOW_DIMENSIONS: [300, 400]
   BACKGROUND_IMAGE: examples/characters/char4/background.png

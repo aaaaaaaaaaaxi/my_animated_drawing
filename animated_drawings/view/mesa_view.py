@@ -5,6 +5,7 @@
 import os
 os.environ['PYOPENGL_PLATFORM'] = "osmesa"
 os.environ['MESA_GL_VERSION_OVERRIDE'] = "3.3"
+os.environ['MUJOCO_GL'] = "osmesa"
 from OpenGL import GL, osmesa
 
 from animated_drawings.model.camera import Camera
