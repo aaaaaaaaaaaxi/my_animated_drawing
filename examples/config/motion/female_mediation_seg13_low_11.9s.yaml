@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/female_mediation/female_mediation_seg13_low_11.9s.bvh
+start_frame_idx: 0
+end_frame_idx: 284
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

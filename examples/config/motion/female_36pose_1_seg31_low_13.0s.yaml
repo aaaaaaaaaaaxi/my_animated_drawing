@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/female_36pose_1/female_36pose_1_seg31_low_13.0s.bvh
+start_frame_idx: 0
+end_frame_idx: 311
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

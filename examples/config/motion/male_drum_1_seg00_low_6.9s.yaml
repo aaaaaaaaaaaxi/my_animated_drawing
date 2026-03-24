@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/male_drum_1/male_drum_1_seg00_low_6.9s.bvh
+start_frame_idx: 0
+end_frame_idx: 165
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

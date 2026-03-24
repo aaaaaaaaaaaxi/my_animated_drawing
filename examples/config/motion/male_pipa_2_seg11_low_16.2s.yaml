@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/male_pipa_2/male_pipa_2_seg11_low_16.2s.bvh
+start_frame_idx: 0
+end_frame_idx: 387
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/female_lotus/female_lotus_seg11_low_71.7s.bvh
+start_frame_idx: 0
+end_frame_idx: 1719
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

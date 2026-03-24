@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/male_36pose_1/male_36pose_1_seg06_low_19.8s.bvh
+start_frame_idx: 0
+end_frame_idx: 475
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

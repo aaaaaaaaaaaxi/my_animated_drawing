@@ -1,0 +1,11 @@
+filepath: examples/bvh/change/split/male_mediation/male_mediation_seg30_low_7.1s.bvh
+start_frame_idx: 0
+end_frame_idx: 169
+groundplane_joint: LeftAnkle
+forward_perp_joint_vectors:
+  - - LeftShoulder
+    - RightShoulder
+  - - LeftHip
+    - RightHip
+scale: 0.025
+up: +z

@@ -5,7 +5,11 @@
       "Bash(python:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(for:*)",
+      "Bash(done:*)",
+      "Bash(ls:*)",
+      "mcp__zai-mcp-server__extract_text_from_screenshot"
     ]
   }
 }
