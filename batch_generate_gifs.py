@@ -94,8 +94,8 @@ controller:
             result = subprocess.run(
                 [sys.executable, "-c", f"from animated_drawings import render; render.start('{mvc_cfg_path}')"],
                 capture_output=True,
-                text=True,
-                timeout=300  # 5 分钟超时
+                text=True
+                # 移除超时限制
             )
 
             if result.returncode == 0:
@@ -107,7 +107,7 @@ controller:
                 return False
 
         except subprocess.TimeoutExpired:
-            print(f"    超时")
+            print(f"    超时（已移除超时限制）")
             self.failed_count += 1
             return False
         except Exception as e:
