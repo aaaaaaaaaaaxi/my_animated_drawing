@@ -16,7 +16,7 @@ from typing import List
 
 # 角色文件夹列表（相对于 examples/characters/）
 CHARACTER_DIRS = [
-    "sample",
+    # "sample",
     "sample_wu",
 ]
 
@@ -27,7 +27,7 @@ OUTPUT_DIR = "./output_gifs"
 RETARGET_CFG = "examples/config/retarget/male_ribbon_pfp.yaml"
 
 # Motion 配置目录
-MOTION_CONFIG_DIR = Path(r"e:\HKUSTGZ\HoloSoul\my_animated_drawing\examples\config\motion")
+MOTION_CONFIG_DIR = Path(r"/hpc2hdd/home/ntang745/workspace/my_animated_drawing/examples/config/motion")
 
 # ================================================
 
